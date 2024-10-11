@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Darker+Grotesque:wght@300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #8a31ef;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  max-width: 1280px;
+  margin-inline: auto;
+  overflow: hidden;
+}
+nav {
+  height: 15vh;
+  align-items: center;
+  color: #fff;
+  font-family: "Darker Grotesque", sans-serif;
+}
+.navLeft h2 {
+  font-size: 5vh;
+}
+.navMid h3 {
+  font-size: 3.5vh;
+  font-weight: 400;
+  margin-left: 50px;
+}
+.navRight button {
+  padding: 1rem 3rem;
+  color: #000000;
+  border-radius: 50px;
+  border: none;
+  background-color: #fff;
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 3vh;
+  font-weight: 600;
+}
+.navRight button i {
+  color: #000;
+  background-color: #fff;
+  font-size: 1.3rem;
+}
+.page1 {
+  height: 42vh;
+  width: 100%;
+  background-size: cover;
+}
+.page1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("/assets/bg.png");
+  background-size: cover;
+  opacity: 10%;
+}
+.sub-page1 {
+  align-items: center;
+  z-index: 12;
+  color: #fff;
+  line-height: 1;
+}
+
+.sub-page1 p {
+  font-size: 2.6vh;
+  width: 10%;
+  font-family: "Darker Grotesque", sans-serif;
+  line-height: 1;
+}
+.sub-page1 p span {
+  font-size: 5vh;
+  font-weight: 900;
+}
+.sub-page1 h1 {
+  font-size: 10rem;
+  width: 95%;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.sub-page2 {
+  align-items: center;
+  line-height: 0;
+  display: flex;
+}
+.sub-page2 p {
+  /* width: 20%; */
+  font-size: 3vh;
+  font-family: "Darker Grotesque", sans-serif;
+  line-height: 1;
+  color: #fff;
+  font-weight: 400;
+  border-top: 1px solid #fff;
+  padding-top: 10px;
+}
+.sub-page2 h1 {
+  font-size: 10rem;
+  width: 65%;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #faf5ff;
+  margin-left: 30px;
+}
+.sub-page2 .image {
+  border: 2px solid #fff;
+  border-radius: 50px;
+  padding: 1vh 2vh;
+}
+.sub-page2 .image img {
+  height: 10vh;
+  width: 10vh;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.subimg img {
+  width: 87vh;
+  height: 50vh;
+  margin-top: 10px;
+  border-radius: 50px;
+  position: relative;
+}
+.page2 {
+  height: 65vh;
+  width: 100%;
+}
+
+.page2 i {
+  position: relative;
+  top: 60%;
+  left: 91%;
+  font-size: 8vh;
+  z-index: 12;
+  padding: 3vh;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.page3 {
+  height: 32vh;
+  width: 100%;
+  overflow: hidden;
+
+  /* background-color: #fff; */
+}
+.fontspace {
+  margin-top: 35px;
+  background-color: #fff;
+  transform: rotate(-3deg);
+  position: sticky;
+}
+.fontspace2 {
+
+  margin-top: 35px;
+  background-color: #fff;
+  transform: rotate(2deg);
+  position: sticky;
+}
+
+.page3 .fontspace h1 {
+  font-size: 7vh;
+  color: #000000;
+  text-transform: uppercase;
+  background-color: #fff;
+
+  font-family: "Archivo Black", sans-serif;
+}
+.page3 .fontspace h1 i {
+  background-color: #fff;
+}
+.page3 .fontspace2 h1 {
+  font-size: 7vh;
+  color: #000000;
+  text-transform: uppercase;
+  background-color: #fff;
+
+  font-family: "Archivo Black", sans-serif;
+}
+.page3 .fontspace2 h1 i {
+  background-color: #fff;
+}
+.page4 {
+    min-height: 100vh;
+    width:100%;
+    background-color: #333;
+}
