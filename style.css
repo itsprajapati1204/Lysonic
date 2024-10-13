@@ -440,11 +440,11 @@ nav {
   font-size: 2.5vh;
   font-family: "Darker Grotesque", sans-serif;
 }
-.page6section2 .btn2  button:hover{
+.page6section2 .btn2 button:hover {
   background-color: #8a31ef;
 }
 
-.page6section2  button {
+.page6section2 button {
   background-color: #333;
   border-radius: 50px;
   border: 1px solid #fff;
@@ -453,30 +453,151 @@ nav {
   font-size: 2.5vh;
   font-family: "Darker Grotesque", sans-serif;
 }
-.page6section2  button i{
+.page6section2 button i {
   background-color: #333;
   font-size: 2.4vh;
 }
-.page6section3{
+.page6section3 {
   margin-top: 7vh;
   gap: 10px;
   background-color: #333;
 }
 
-.page6section3 img{
+.page6section3 img {
   height: 70vh;
-  width:50%;
+  width: 50%;
   border-radius: 50px;
 }
-.page6section4{
-  margin-top:1vh;
+.page6section4 {
+  margin-top: 1vh;
   gap: 10px;
   background-color: #333;
 }
 
-.page6section4 img{
+.page6section4 img {
   height: 70vh;
-  width:50%;
+  width: 50%;
   border-radius: 50px;
-  
+}
+.page7 {
+  background-color: #333;
+}
+.page7section1 {
+  padding-top: 50px;
+}
+.page7section1 h1 {
+  background-color: #333;
+  font-size: 14vh;
+  font-family: "Archivo Black", sans-serif;
+  color: #fff;
+}
+.page7section1 {
+  background-color: #333;
+  align-items: center;
+}
+.page7section1 .btn {
+  background-color: #333;
+  padding: 2vh 10vh;
+  width: 30%;
+}
+.page7section1 .btn button {
+  background-color: #333;
+}
+
+.page7section2 {
+  background-color: #333;
+  gap: 10px;
+}
+.page7section2 p {
+  background-color: #333;
+  color: #fff;
+  padding: 10vh 15vh;
+  border: 2px solid white;
+  font-size: 3vh;
+  border-radius: 50px;
+  font-family: "Darker Grotesque", sans-serif;
+}
+.page7section3 {
+  background-color: #333;
+  gap: 10px;
+  margin-top: 10px;
+}
+.page7section3 p {
+  background-color: #333;
+  color: #fff;
+  padding: 10vh 15vh;
+  border: 2px solid white;
+  font-size: 3vh;
+  border-radius: 50px;
+  font-family: "Darker Grotesque", sans-serif;
+}
+.page7section3 p {
+  margin-bottom: 70px;
+}
+.page8 {
+  min-height: 80vh;
+  width: 100%;
+  text-align: center;
+  padding-top: 10vh;
+}
+.page8 h1 {
+  font-size: 14vh;
+  font-family: "Archivo Black", sans-serif;
+  color: #fff;
+}
+.page8 p {
+  font-size: 5vh;
+  font-family: "Darker Grotesque", sans-serif;
+  color: #fff;
+}
+.page8section1 {
+  display: flex;
+  margin-top: 8vh;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 30px;
+}
+.page8section1 button {
+  background-color: #fff;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  padding: 1vh 5vh;
+  color: #000000;
+  font-size: 3vh;
+  font-weight: 600;
+  font-family: "Darker Grotesque", sans-serif;
+}
+.page8section2 {
+  margin-top: 70px;
+  align-items: center;
+}
+.page8section2 .logo h2 {
+  width: 20%;
+  color: #fff;
+  font-size: 5vh;
+  font-family: "Archivo Black", sans-serif;
+}
+.page8section2 .midsec p {
+  color: #fff;
+  font-size: 4vh;
+  margin-left: 30px;
+  font-family: "Darker Grotesque", sans-serif;
+}
+.page8section2 .icon i {
+  color: #fff;
+  font-size: 4vh;
+  margin-left: 20px;
+}
+footer .txt{
+  justify-content: center;
+}
+footer h3 {
+  color: #fff;
+  font-size: 3vh;
+  font-family: "Darker Grotesque", sans-serif;
+  font-weight: 500;
+}
+
+.txt h3 i{
+  color:red;
 }
