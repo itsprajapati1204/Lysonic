@@ -6,6 +6,9 @@
   box-sizing: border-box;
   background-color: #8a31ef;
 }
+::-webkit-scrollbar {
+  display: none;
+}
 
 .flex {
   display: flex;
@@ -139,7 +142,7 @@ nav {
 
 .page2 i {
   position: relative;
-  top: 60%;
+  top: 74%;
   left: 91%;
   font-size: 8vh;
   z-index: 12;
@@ -159,13 +162,17 @@ nav {
   background-color: #fff;
   transform: rotate(-3deg);
   position: sticky;
+  padding: 3vh 0;
 }
 .fontspace2 {
-
+  width: 100%;
+  padding: 3vh 0;
   margin-top: 35px;
   background-color: #fff;
   transform: rotate(2deg);
-  position: sticky;
+  position: absolute;
+
+  z-index: 2;
 }
 
 .page3 .fontspace h1 {
@@ -173,7 +180,6 @@ nav {
   color: #000000;
   text-transform: uppercase;
   background-color: #fff;
-
   font-family: "Archivo Black", sans-serif;
 }
 .page3 .fontspace h1 i {
@@ -184,14 +190,293 @@ nav {
   color: #000000;
   text-transform: uppercase;
   background-color: #fff;
-
   font-family: "Archivo Black", sans-serif;
+  margin-left: 20px;
 }
 .page3 .fontspace2 h1 i {
   background-color: #fff;
 }
 .page4 {
-    min-height: 100vh;
-    width:100%;
-    background-color: #333;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #161616;
+}
+.section1 {
+  background-color: #161616;
+  align-items: center;
+}
+.page4 h1 {
+  width: 60%;
+  margin-top: 20vh;
+  background-color: #161616;
+  color: #c6c0ca;
+  font-size: 6rem;
+  font-family: "Archivo Black", sans-serif;
+}
+.page4 p {
+  line-height: 1;
+  width: 35%;
+  font-size: 1.3rem;
+  margin-top: 20vh;
+  background-color: #161616;
+  color: #c6c0ca;
+  font-family: "Darker Grotesque", sans-serif;
+}
+.page4::before {
+  content: "";
+  position: absolute;
+  top: 90%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("/assets/bg.png");
+  background-size: cover;
+  opacity: 10%;
+}
+.section2 {
+  background-color: #161616;
+  margin-top: 5vh;
+}
+.page4 .section2 #video {
+  height: 65vh;
+  width: 42vw;
+  background-color: #161616;
+  border-radius: 50px;
+  background-image: url(/assets/videoimg.png);
+  background-size: cover;
+}
+.section2 #video i {
+  font-size: 5vh;
+  position: relative;
+  top: 50%;
+  left: 45%;
+  color: #fff;
+  padding: 3vh;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 6px solid white;
+}
+#textsection {
+  background-color: #161616;
+}
+#textsection .d1 {
+  height: 14vh;
+  width: 80vh;
+  background-color: #202020;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+#textsection .d2 {
+  height: 20vh;
+  width: 80vh;
+  background-color: #202020;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+#textsection .d2 h3 {
+  font-size: 15vh;
+  background-color: transparent;
+  color: #fff;
+  padding-left: 5vh;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 900;
+}
+#textsection .d2 h4 {
+  width: 80%;
+  font-size: 8vh;
+  background-color: transparent;
+  color: #fff;
+  padding-left: 5vh;
+  font-family: "Darker Grotesque", sans-serif;
+  font-weight: 400;
+  line-height: 0.7;
+}
+#textsection .d2 i {
+  background-color: transparent;
+  color: white;
+  font-size: 8vh;
+  font-weight: 300;
+}
+#textsection .d1 h3 {
+  font-size: 7vh;
+  background-color: transparent;
+  color: #fff;
+  padding-left: 6vh;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 900;
+}
+#textsection .d1 h4 {
+  width: 80%;
+  font-size: 5vh;
+  background-color: transparent;
+  color: #fff;
+  padding-left: 5vh;
+  font-family: "Darker Grotesque", sans-serif;
+  font-weight: 400;
+  line-height: 0.7;
+}
+#textsection .d1 i {
+  background-color: transparent;
+  color: white;
+  font-size: 8vh;
+  font-weight: 300;
+}
+.page5 {
+  height: 100vh;
+  width: 100%;
+  margin-top: 10vh;
+}
+
+.page5::before {
+  content: "";
+  position: absolute;
+  top: 250%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("/assets/pattern.svg");
+  background-size: cover;
+  opacity: 10%;
+}
+.page5section1 h1 {
+  font-size: 14vh;
+  font-family: "Archivo Black", sans-serif;
+  color: #fff;
+}
+.page5section1 {
+  align-items: center;
+}
+.page5section1 .btn {
+  padding: 2vh 10vh;
+  width: 30%;
+}
+.btn button {
+  padding: 2vh 7vh;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  font-size: 2vh;
+  color: #fff;
+}
+.page5section2 {
+  position: relative;
+}
+.page5section2 h2 {
+  font-size: 7vh;
+  padding: 3vh 20vh;
+  border: 2px solid #fff;
+  border-radius: 70px;
+  margin-bottom: 30px;
+  color: #fff;
+  font-family: "Darker Grotesque", sans-serif;
+  transition: all ease-in;
+  transition-delay: 0.1s;
+}
+.page5section2 h2 i {
+  position: relative;
+  top: 0;
+  left: 60%;
+  padding: 2vh;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all ease-in;
+  transition-delay: 0.1s;
+}
+
+.page5section2 h2:hover {
+  background-color: #fff;
+  color: #333;
+}
+.page5section2 h2:hover i {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #333;
+}
+.page6 {
+  background-color: #333;
+  min-height: 100vh;
+  width: 100%;
+}
+.page6section {
+  background-color: #3333;
+}
+.page6section1 h1 {
+  background-color: #333;
+  font-size: 14vh;
+  font-family: "Archivo Black", sans-serif;
+  color: #fff;
+}
+.page6section1 {
+  align-items: center;
+  background-color: #333;
+}
+.page6section1 .btn {
+  background-color: #333;
+  padding: 2vh 10vh;
+  width: 30%;
+}
+.page6section1 p {
+  width: 30%;
+  background-color: #333;
+  border-radius: 50px;
+  font-size: 3vh;
+  color: #fff;
+  font-family: "Darker Grotesque", sans-serif;
+}
+.page6section2 {
+  background-color: #333;
+}
+.btn2 {
+  background-color: #333;
+}
+
+.page6section2 .btn2 button {
+  background-color: #333;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  padding: 2vh 5vh;
+  color: #fff;
+  font-size: 2.5vh;
+  font-family: "Darker Grotesque", sans-serif;
+}
+.page6section2 .btn2  button:hover{
+  background-color: #8a31ef;
+}
+
+.page6section2  button {
+  background-color: #333;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  padding: 2vh 5vh;
+  color: #fff;
+  font-size: 2.5vh;
+  font-family: "Darker Grotesque", sans-serif;
+}
+.page6section2  button i{
+  background-color: #333;
+  font-size: 2.4vh;
+}
+.page6section3{
+  margin-top: 7vh;
+  gap: 10px;
+  background-color: #333;
+}
+
+.page6section3 img{
+  height: 70vh;
+  width:50%;
+  border-radius: 50px;
+}
+.page6section4{
+  margin-top:1vh;
+  gap: 10px;
+  background-color: #333;
+}
+
+.page6section4 img{
+  height: 70vh;
+  width:50%;
+  border-radius: 50px;
+  
 }
